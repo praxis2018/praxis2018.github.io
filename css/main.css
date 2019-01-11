@@ -1767,7 +1767,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     background-position: center 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;*/
-    background-size: contain;
+    /*background-size: contain;*/
     /*min-height: 804px;
     /*position: relative;*/
   }
@@ -1825,9 +1825,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #2e383f;
   margin-top: 6rem;
 }
-#about .lead {
+#about .leadregular {
   font-family: "montserrat-regular", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
@@ -2350,8 +2350,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-top: 4.2rem;
 }
 #team .team-author .img-class {
-  width: 18%;
-  /*height: 18%;*/
+  width: 30%;
+  /*height: 20rem;*/
   margin: 0 auto 0 auto;
   border-radius: 35%;
   overflow: hidden;
@@ -2359,7 +2359,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   float: left;
 }
 #team .team-author .author-info {
-  width:80%;
+  width:65%;
   /*float: left;*/
   display: inline-block;
   /*vertical-align: top;*/
@@ -2420,50 +2420,44 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * team
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
-  #team-slider p {
-    font-size: 2.8rem;
+  #team .team-list .team-item {
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #team .team-list .team-item {
+    padding: 0 30px;
   }
 }
 @media only screen and (max-width: 768px) {
-  #team h2 {
-    font-size: 1.7rem;
+  #team {
+    padding: 12rem 0 12rem;
   }
-
-  #team-slider p {
-    font-size: 2.5rem;
+  #team .team-content {
+    max-width: 550px;
   }
-  #team-slider .team-author img {
-    width: 6.6rem;
-    height: 6.6rem;
-  }
-  #team-slider .team-author .author-info {
-    font-size: 1.8rem;
-  }
-  #team-slider .team-author .author-info span {
-    font-size: 1.5rem;
+  #team .team-list .team-item {
+    padding: 0 15px;
   }
 }
 @media only screen and (max-width: 600px) {
-  #team .flex-container {
-    width: 90%;
-  }
-
-  #team-slider p {
-    font-size: 2.2rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  #team h2 {
-    font-size: 1.5rem;
+  #team .team-list .team-item {
+    padding: 0 10px;
   }
 }
 @media only screen and (max-width: 400px) {
-  #team .flex-container {
-    width: 100%;
+  #team .team-author .img-class {
+    /*width: 50%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35%;
+    overflow: hidden;
+    /*vertical-align: middle;*/
+    /*float: center;*/
   }
-
-  #team-slider p {
-    font-size: 2rem;
+  #team .team-list .team-item {
+    padding: 0;
   }
 }
 
