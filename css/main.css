@@ -1,4 +1,4 @@
-/* =================================================================== 
+  /* =================================================================== 
  *
  *  Infinity v1.0 Main Stylesheet
  *  01-02-2017
@@ -1756,6 +1756,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
+    background-size: contain;
   }
 
   .home-content-tablecell .row {
