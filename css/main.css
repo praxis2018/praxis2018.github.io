@@ -2466,7 +2466,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-  background: #FFFFFF;
+  background:  #e9eaea;
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
@@ -2644,7 +2644,20 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients {
   background-color: #e9eaea;
   padding: 4.8rem 0 4.8rem;
+  text-align: center;
+
 }
+#clients h2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+  margin-bottom: 4.2rem;
+}
+
 #clients .client-lists .owl-item {
   opacity: .6;
   -moz-transition: all 0.6s ease-in-out;
